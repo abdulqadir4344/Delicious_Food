@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block class %}class="sub_page"{% endblock class %}
+
+{% block main %}
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container  ">
+
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="{% static "images/about-img.png" %}" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                Delicious Food
+              </h2>
+            </div>
+            <p>
+              Delicious Food is your go-to fast food restaurant where taste meets convenience. 
+              We offer a delectable menu filled with mouthwatering options, 
+              from classic burgers to crispy fried favorites and more. 
+              Our commitment to quality ingredients and speedy service ensures that every meal is a flavorful delight. 
+              Whether you're grabbing a quick bite during a busy day or satisfying your late-night cravings, 
+              Delicious Food is here to serve you 24/7. Come experience the joy of indulgence, 
+              one delicious bite at a time, at Delicious Food.
+            </p>
+            <a href="">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+
+
+{% endblock main %}
